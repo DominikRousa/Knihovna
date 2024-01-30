@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ui.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="container-input">
+            <input id="title" type="text" placeholder="Title">
+        </div>
+        <div class="container-input">
+            <input id="author" type="text" placeholder="Author">
+        </div>
+        <div class="container-input">
+            <input id="genre" type="text" placeholder="Žánr" list="genres">
+        </div>
+        <div class="container-input">
+            <input id="publishedYear" type="number" placeholder="Rok vydání">
+        </div>
+
+        <datalist id="genres">
+            <option value="Comedy">
+            <option value="Drama">
+            <option value="Romance">
+            <option value="Sci-fi">
+            <option value="Thriller">
+          </datalist>
+
+        <div class="container-input">
+            <button onclick="addBook()"><strong>Add Book</strong></button>
+        </div>
+
+    </div>
+    <div class="output">
+
+        <ul id="bname" class="books"></ul>
+        <ul id="baut" class="books"></ul>
+        <ul id="bgen" class="books"></ul>
+        <ul id="byear" class="books"></ul>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

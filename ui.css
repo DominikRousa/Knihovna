@@ -1,0 +1,70 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input{
+    outline: none;
+}
+
+::placeholder{
+    font-weight: bold;
+    color: #808080;
+}
+
+.container{
+    margin-top: 25vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    align-items: center;
+}
+
+.container button{
+    color: black;
+    padding: 1.2vh;
+    border-radius: 7vh;
+    border: 0px solid;
+    width: 27vh;
+    background-color: white;
+    cursor: pointer;
+}
+
+.container button:hover{
+    background: linear-gradient(90deg, #c800ff 0%, #0005a3 100%);
+    color: white;
+}
+
+.container-input{
+    max-width: 250px;
+    padding: 1rem;
+    position: relative;
+    background: linear-gradient(to right, #c800ff, #0005a3);
+    padding: 3px;
+    border-radius: 7vh;
+    border: 0px solid;
+}
+
+.container-input input {
+    color: black;
+    padding: 1.5vh;
+    border-radius: 7vh;
+    border: 0px solid;
+    color: #252525;
+    font-weight: bold;
+}
+
+.list-group-item{
+    list-style-type: none;
+}
+
+.output{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.books{
+    display: flex;
+    flex-direction: column;
+}
