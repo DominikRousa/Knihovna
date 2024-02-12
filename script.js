@@ -25,10 +25,10 @@ function addBook(){
 
 function displayList(){
 
-    list.innerHTML = ""
+    nlist.innerHTML = ""
 
     for(let i = 0; i < books.length; i++){
-        list.innerHTML += books[i].title + " " + books[i].author + " " + books[i].genre + " " + books[i].year + " "
+        nlist.innerHTML += books[i].title + " " + books[i].author + " " + books[i].genre + " " + books[i].year + " "
     }
 
 }
